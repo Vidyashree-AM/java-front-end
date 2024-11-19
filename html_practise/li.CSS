@@ -1,0 +1,9 @@
+li{
+background:blue;
+width:360px;
+margin:0px 100px 0px 300px;
+}
+
+li:nth-child(2n){
+background-color:white;
+}

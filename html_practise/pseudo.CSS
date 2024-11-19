@@ -1,0 +1,23 @@
+a:active{
+ background:black;
+ color:white;
+}
+
+body{
+background:red;
+}
+
+#wrapper{
+margin:100px auto;
+background-color:white;
+width:800px;
+hieght:1000px;
+word-spacing:10px;
+}
+
+nav{
+display:block;
+background:black;
+color:white;
+position:absolute;
+}

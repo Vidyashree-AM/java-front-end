@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>Linear gradiant</title>
+<link rel="stylesheet" type="text/css" href="radial.CSS">
+</head>
+<body>
+
+</body>
+</html>

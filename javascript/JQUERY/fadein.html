@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>fadeIN method of jquery</title>
+        <link rel="stylesheet" type="text/css" href="attrjquery.css"> </link>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <script>
+            $(document).ready(function() {
+                  $("button").click(function(){
+                        $("#one").fadeIn();
+                        $("#two").fadeIn("slow");
+                        $("#three").fadeIn(3000);
+                  });  
+            });
+        </script>
+
+      <button>Namaste India</button>
+      <div class="fade">
+        <div id="one"   style="width:2200; height:60px; display:none; background-color:orange;"></div><br>
+        <div id="two"   style="width:2200; height:60px; display:none; background-color:white;"></div><br>
+        <div id="three" style="width:2200; height:60px; display:none; background-color:green;"></div><br>
+      </div>
+
+     
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Attribute method of jquery</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <h1>Hello people</h1>
+        <p>Please proceed</p>
+        <p>Start typing...</p>
+        <script>
+            $(document).ready(function(){
+               $("input").on("keypress",function(){
+                  $("p:last").hide();
+               })
+            });
+        </script>
+        <input type="text" id="press" value="">
+    </body>
+</html>

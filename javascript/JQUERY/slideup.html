@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>fadeIN method of jquery</title>
+        <link rel="stylesheet" type="text/css" href="attrjquery.css"> </link>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <script>
+            $(document).ready(function() {
+                  $("button").click(function(){
+                       $("#div1").slideUp("slow");
+                  });  
+            });
+        </script>
+
+      <button>Slide</button>
+      <div id="div1"  style="width:90px; height:60px;  background-color:pink;"></div>
+    </body>
+</html>

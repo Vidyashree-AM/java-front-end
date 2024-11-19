@@ -1,0 +1,49 @@
+#lorem{
+
+background:black;
+color:white;
+border:3px solid red;
+padding:10px 10px 10px 10px;
+margin:10px auto;
+
+}
+
+#normal{
+
+font-style : normal;
+}
+
+#Italic{
+
+font-style : italic;
+}
+
+#oblique{
+
+font-style : oblique;
+}
+
+#smallcap{
+
+font-variant: small-caps;
+}
+
+#wnormal{
+
+font-weight : normal;
+}
+
+#wbold{
+
+font-weight : bold;
+}
+
+#wpnts{
+
+font-size : 2em;
+}
+
+#w100percent{
+
+font-size : 200%;
+}

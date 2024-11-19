@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>addcls method of jquery</title>
+        <link rel="stylesheet" type="text/css" href="attrjquery.css"> </link>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="flowers">
+            <img src="flower1.jpg"></img>
+        </div>
+
+        <button class="button" id="hide">Hide</button>
+        <button class="button" id="show">Show</button>
+        <script>
+            $(document).ready(function() {
+                  $("#hide").click(function(){
+                      $("img").hide();
+                  });
+                  $("#show").click(function(){
+                      $("img").show();
+                  });
+            });
+        </script>
+    </body>
+</html>

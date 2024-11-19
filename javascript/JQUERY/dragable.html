@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>fadeIN method of jquery</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+        <!-- Jquery UI library cdn link-->
+        <script
+  src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"
+  integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY="
+  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <style>
+           #drag {
+               width : 200px;
+               height: 200px;
+               background-color:violet;
+           }
+        </style>
+        <script>
+            $(document).ready(function() {
+                 $("#drag").draggable();
+            });
+        </script>
+
+        <div id="drag">
+            <p>Drag me</p>
+        </div>
+
+    </body>
+</html>
